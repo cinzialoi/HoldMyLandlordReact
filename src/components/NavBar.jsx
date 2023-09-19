@@ -20,6 +20,11 @@ function NavBar() {
                     ) : (
                     <Link to="/login">Login</Link>
                 )}
+                {auth.token ? (
+                    <Link to="/project/add" >Add Project</Link>
+                ) : null
+                }
+                {auth.token ? null :(<Link to="/register" >Register</Link>)}
             </nav>
             <Outlet />
         </div>
