@@ -25,12 +25,4 @@
 ![image info goes here](./Screenshots/Random%20tip.png)  
 
 ## Submission Documentation 
-Deployed Project: [Deployed website](https://main--aesthetic-caramel-247426.netlify.app/) 
-
-### Screenshots 
-* [] A screenshot of Insomnia, demonstrating a successful GET method for any endpoint. 
-![Successful get of a project](./Screenshots/Get.png) 
-* [] A screenshot of Insomnia, demonstrating a successful POST method for any endpoint. 
-![Successful post of new project](./Screenshots/Post.png) 
-* [] A screenshot of Insomnia, demonstrating a token being returned. 
-![Token being generated](./Screenshots/Token.png)
+Deployed Project: [Deployed website](https://main--aesthetic-caramel-247426.netlify.app/)
