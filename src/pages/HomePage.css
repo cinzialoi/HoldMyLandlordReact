@@ -5,3 +5,105 @@
     row-gap: 10px;
 }
 
+/* Reset some default styles to provide a clean slate */
+body, h1, h2, p, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a base font and background color */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#Logo {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Name styles */
+.name {
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+/* Hero section styles */
+.hero {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Description styles */
+.description {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Project list styles */
+#project-list {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Project card styles (you can customize this further in ProjectCard.css) */
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    flex-basis: calc(50% - 10px); /* Two cards per row with some spacing */
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    /* Adjust styles for tablets and desktops */
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .description {
+        flex: 1;
+        margin-left: 20px;
+    }
+
+    .project-card {
+        flex-basis: calc(33.33% - 10px); /* Three cards per row with some spacing */
+    }
+}
+
+/* Add more media queries for larger screens if needed */
+
+/* Google Fonts - Pacifico for the logo and header */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');

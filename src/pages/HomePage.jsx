@@ -9,7 +9,7 @@ function HomePage() {
     <>
         <header>
             <div class="image-container">
-                <img src="Images/Placeholder-shrug.jpg" alt="Hold My Landlord Logo" id="Logo"></img>
+                <img src = '../images/Logo.jpg' alt="Hold My Landlord Logo" id="Logo"></img>
             </div>
             <h1 class="name">Hold My Landlord</h1>
         </header> 
